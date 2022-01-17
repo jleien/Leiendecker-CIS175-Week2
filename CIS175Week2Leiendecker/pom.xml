@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>CIS175Week2Leiendecker</groupId>
+  <artifactId>CIS175Week2Leiendecker</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Java II Week 2 Assignment</name>
+  <description>Display ability to configure a project with Maven, apply dependencies, create classes, and test them appropriately. Display competence in the use of GitHub and using repos.</description>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>16</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.13.2</version>
+  	</dependency>
+  </dependencies>
+</project>
