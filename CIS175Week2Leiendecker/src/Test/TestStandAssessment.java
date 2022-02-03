@@ -20,7 +20,7 @@ import Model.StandAssessment;
  */
 public class TestStandAssessment{
 	StandAssessment StandA = new StandAssessment();
-	Stand stand = new Stand("NEBrand", "Concessions - Popcorn", 500, "Open");
+	Stand stand = new Stand(1, "NEBrand", "Concessions - Popcorn", 500, "Open");
 	//this is the stand my brother or I run at ISU Mens BB games
 	
 	@Before
